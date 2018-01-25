@@ -1,0 +1,146 @@
+@CHARSET "UTF-8";
+*{
+	maigin:0;
+	padding:0;
+}
+ul{
+	list-style:none;
+}
+#main_container{
+	width:1200px;
+	height:800px;
+	margin:0 auto;
+	
+	}
+.hospital{
+	width:1200px;
+	height:214px;
+	border:solid 1px #ccc;
+	margin-top:20px;
+}
+.symbol{
+	display:block;
+	width:339px;
+	margin:20px;
+	
+	}
+.brief{
+	width:810px;
+	
+	}
+	.brief_desc{
+	
+	width:800px;
+	height:150px;
+	line-height:24px;
+	}
+	.nav{
+	width:1200px;
+	height:63px;
+	line-height:63px;
+	border-bottom:solid 1px #ccc;
+	}
+	.nav>ul{
+	position:relative;
+	}
+	
+	.nav>ul>li{
+	width:130px;
+	float:left;
+	text-align:center;
+	cursor:pointer;
+	}
+	.nav>ul>li.wire {
+	width:135px;
+  height:2px;
+  border-bottom:solid  1px #059981;
+  position:absolute;
+  top:60px;
+  left:127px;
+  float:none;
+	}
+	/* .active{
+	color:#059981;
+	border-bottom:solid 2px #059981;
+	} */
+	.contents{
+	width:1200px;
+	border:solid 1px #ccc;
+	margin:30px auto;
+	text-align:center;
+	}
+	.dept_contents{
+	width:1200px;
+	border:solid 1px #ccc;
+	margin:30px auto;
+    	}
+	.order_content{
+		width:1098px;
+		line-height:200%;
+		border:solid 1px #ccc;
+		padding:50px ;
+		margin:30px auto;
+	}
+	.hospitol_desc{
+	width:300px;
+	height:30px;
+	
+	border-bottom:solid 1px #ccc;
+	margin:30px auto;
+	position:relative;
+	}
+	.hos_text {
+	width:100px;
+	height:29px;
+	background:#fff;
+	position:absolute;
+	top:17px;
+	left:100px;
+	}
+	.hos_container,.list{
+	    width:1100px;
+	    text-indent:2em;
+	   text-align:left;
+	   margin:70px  60px ;
+	   line-height:200%;
+	} 
+		.hos_container  p{
+		  margin:0px ;
+		}
+		.list1{
+		width:1120px;
+		height:100px;
+		line-height:24px;
+		border-bottom:solid 1px  #ccc;
+		margin:10px 40px;
+		
+		}
+		.list2{
+			width:1120px;
+			height:50px;
+			margin:10px 40px;
+			border-bottom:solid 1px  #ccc;
+				
+	}
+       .list3{
+				width:1120px;
+				height:50px;
+				margin:10px 40px;
+				
+				}		
+	.special_dept{
+		width:150px;
+		height:50px;
+		padding-top:18px;
+		text-align:left;
+		}
+		.special_list{
+		width:970px;
+		height:78px;
+		margin-top:-10px;
+  		}
+  .special_list>ul>li:hover{
+   color:#059981;
+  }
+  
+  		
